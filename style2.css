@@ -5,7 +5,7 @@ body, html {
     padding: 0;
     font-family: 'Patua One', cursive;
     height: 100%;
-    padding-bottom: 2000px;
+    padding-bottom: 800px;
   }
   
   * {
@@ -65,17 +65,68 @@ body, html {
     text-decoration:none;
   }
   .lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
     max-width:1200px;
     margin:0 auto;
+    margin-left: 180px;
+    margin-top: 50px;
   }
+
 a{
     color: aliceblue;
     text-decoration: none;
 }
-.filme{
-   margin-left: 250px;
-    color: aliceblue;
-}
+
 .netflix{
     margin-left: 100px;
+}
+.imgcont{
+    display: inline-flex;
+    flex-direction: column;
+}
+  .filme{
+    margin-left: 76px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .muzica{
+    margin-left: 76px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .jocuri{
+    margin-left: 76px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .copii{
+    margin-left: 76px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .infoent
+{
+    margin-top: 50px;
+    padding: 10px;
+    color: aliceblue;
+    margin-left: 300px;
+    width: 800px;
+    background-color: #333;
+    border-radius: 20px;  
+    text-align: center;
 }
