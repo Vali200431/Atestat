@@ -58,7 +58,7 @@ body, html {
     text-align: justify;
     border-radius: 7px;
     width:100vw;
-    height: 75vh;
+    height: 80vh;
     opacity: 0.85;
     background-color: #e4e4e4;
     float: left;
@@ -149,8 +149,6 @@ P{
     color: #ffffff;
 
     text-align: center;
-    
-    
 }
 .titlu2{
   color: #000000;
