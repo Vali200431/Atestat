@@ -9,10 +9,10 @@
     <nav>
         <div class="navbar">
             <ul class="navi">
-                <li>
-                    <a href="index.html">HOME</a>
-                    <a href="Divertismentul.html">DIVERTISMENTUL </a>
-                    <a href="Despre.html">DESPRE ACEST SITE</a>
+                <li class="navigation">
+                    <a href="index.html" class="navmenus">HOME</a>
+                    <a href="Divertismentul.html" class="navmenus">DIVERTISMENTUL </a>
+                    <a href="Despre.html" class="navmenus">DESPRE ACEST SITE</a>
                 </li>
             </ul>
         </div>
@@ -28,9 +28,34 @@
             Ce este divertismentul?
         </h1>
         <p class="paragraf1">
-            Divertismentul online a devenit o parte integrală a vieții noastre în ultimii ani, iar acest lucru are un impact puternic asupra societății și culturii noastre în România.Pe de o parte, divertismentul online ne oferă acces la o gamă largă de opțiuni de divertisment, de la filme la muzică, la jocuri și emisiuni TV. Acest lucru ne permite să ne relaxăm și să ne distrăm în moduri noi și diverse, fără a fi nevoiți să părăsim confortul casei noastre.Pe de altă parte, însă, divertismentul online poate avea un impact negativ asupra sănătății noastre mentale și fizice. Multe persoane tind să petreacă prea mult timp în fața ecranelor, ceea ce poate duce la probleme de somn, oboseală oculară și chiar la dependență. De asemenea, divertismentul online poate să distorsioneze percepția realității și să ne facă să ne simțim mai puțin satisfăcuți cu viața noastră reală, dacă ne comparăm cu personajele perfecte și cu situațiile fictive pe care le vedem în filme și emisiuni TV.Este important să găsim un echilibru între folosirea divertismentului online pentru a ne distra și a ne relaxa, și păstrarea unei vieți active și sănătoase. Ar trebui să ne limităm timpul petrecut în fața ecranelor și să încercăm să găsim activități care să ne stimuleze mintea și trupul în moduri pozitive. De asemenea, ar trebui să ne asigurăm că sursele noastre de divertisment sunt autentice și de încredere, astfel încât să nu ne lăsăm influențați de dezinformare sau de mesaje negative.În final, divertismentul online poate fi o sursă valoroasă de distracție și relaxare, dar este important să îl folosim.
-        </p>
+            Divertismentul online a devenit o parte integrală a vieții noastre în ultimii ani, iar acest lucru are un impact puternic asupra societății și culturii noastre în România.Pe de o parte, divertismentul online ne oferă acces la o gamă largă de opțiuni de divertisment, de la filme la muzică, la jocuri și emisiuni TV. <span id="dots">...</span><span id="more">Acest lucru ne permite să ne relaxăm și să ne distrăm în moduri noi și diverse, fără a fi nevoiți să părăsim confortul casei noastre.Pe de altă parte, însă, divertismentul online poate avea un impact negativ asupra sănătății 
+                noastre mentale și fizice. Multe persoane tind să petreacă prea mult timp în fața ecranelor, ceea ce poate duce la probleme de somn, oboseală oculară și chiar la dependență. De asemenea, divertismentul online poate să distorsioneze 
+                percepția realității și să ne facă să ne simțim mai puțin satisfăcuți 
+                cu viața noastră reală, dacă ne comparăm cu personajele perfecte și cu situațiile fictive pe care le vedem în filme și emisiuni TV.Este important să găsim un echilibru între folosirea divertismentului online 
+                pentru a ne distra și a ne relaxa, și păstrarea unei vieți active și sănătoase. Ar trebui să ne limităm timpul petrecut în fața ecranelor și să 
+                încercăm să găsim activități care să ne stimuleze mintea și trupul în moduri pozitive. De asemenea, ar trebui să ne asigurăm că sursele noastre de divertisment sunt autentice și de încredere, astfel 
+                încât să nu ne lăsăm influențați de dezinformare sau de mesaje negative.În final, divertismentul online poate fi o sursă valoroasă de distracție și relaxare, dar este important să îl folosim.
+            </p></span>
+            
+        <button onclick="myFunction()" id="myBtn">Citeste mai mult</button>
         </div>
+        <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Citeste mai mult"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Citeste mai putin"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
 </body>
   <footer>
    <ul class="footer-btn">

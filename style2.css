@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Patua One', cursive;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-style: normal;
     height: 100%;
     padding-bottom: 800px;
   }
@@ -11,7 +14,10 @@ body, html {
   * {
     box-sizing: border-box;
   }
+  
+
   .navi{
+    padding-left: 15px;
     border-radius: 7px;
     list-style: none;
     text-decoration: none;
@@ -33,9 +39,10 @@ body, html {
     margin-left: 260px;
     display: inline-block;
     color: white;
-    text-align: center;
-    padding: 19px 16px;
+    text-align: center; 
+    padding: 20px 10px;
     text-decoration: none;
+ 
   }
   .navmenus:hover {
     transition: all 0.5s ease-in;
@@ -58,6 +65,7 @@ body, html {
     width: 100px;
     height: 100px;
   }
+  
   li {
 
     display: inline-block;
@@ -118,7 +126,14 @@ a{
     margin-top: 10px;
     margin-bottom: 0;
   }
+.navigation{
+  justify-content: center;
 
+  display: inline-block;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+}
   .infoent
 {
     margin-top: 50px;
@@ -129,4 +144,26 @@ a{
     background-color: #333;
     border-radius: 20px;  
     text-align: center;
+}
+footer{ 
+  margin-top: 50px;
+ height: 150px;
+ background-color: #000000;
+}
+footer{
+  padding-bottom:20px ;
+}
+.fli{
+  justify-content: center;
+    margin-left: 260px;
+    display: inline-block;
+    color: white;
+    text-align: center; 
+    padding: 25px 10px;
+    text-decoration: none;
+}
+.copyright{
+  color: #f1f1f1;
+  text-align: center;
+  padding-right: 15px;
 }
